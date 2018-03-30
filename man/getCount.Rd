@@ -4,7 +4,7 @@
 \name{getCount,Base-method}
 \alias{getCount,Base-method}
 \alias{getCount}
-\title{Retrieve the object's count}
+\title{Retrieve the object's current count}
 \usage{
 \S4method{getCount}{Base}(obj)
 }
@@ -15,7 +15,7 @@
 The current count of the Base object
 }
 \description{
-Retrieve the object's count
+Retrieve the object's current count
 }
 \examples{
 # Create a Base object

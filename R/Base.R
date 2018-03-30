@@ -1,12 +1,12 @@
 #' @importFrom methods new
 #' @import BiocGenerics
-#' 
+#'
 #' @name Base-class
 #' @rdname Base-class
 #' @exportClass Base
 #' @slot name a length-one character vector
 #' @slot count integer a length-one numeric vector
-#' 
+#'
 .Base <- setClass ("Base",
                    slots = list(name="character",
                                 count="numeric"))
@@ -18,13 +18,13 @@ setGeneric('getCount', signature='obj', function (obj) standardGeneric ('getCoun
 #'
 #' @name Base
 #' @rdname Base-class
-#' 
+#'
 #' @param name A length-one character vector
 #' @param count A length-one numeric vector
 #' @return An object of class Base
-#' 
+#'
 #' @export
-#' 
+#'
 Base <- function(name, count)
 {
    obj <- .Base(name=name, count=count)
@@ -56,7 +56,7 @@ setMethod("getName", "Base",
        })
 
 #----------------------------------------------------------------------------------------------------
-#' Retrieve the object's count
+#' Retrieve the object's current count
 #'
 #' @rdname getCount
 #' @aliases getCount
@@ -69,9 +69,9 @@ setMethod("getName", "Base",
 #' # Create a Base object
 #' base.01 <- Base(name="paul", count=42)
 #' getCount(base.01)
-#' 
+#'
 #' @export
-#' 
+#'
 setMethod("getCount", "Base",
 
     function(obj){
