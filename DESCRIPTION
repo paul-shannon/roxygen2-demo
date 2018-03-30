@@ -1,0 +1,13 @@
+Package: roxygen2Demo
+Type: Package
+Title: Demonstrate the construction of a minimal package, with one function and a little bit of data
+Version: 0.99.2
+Date: 2018-03-30
+Author: Paul Shannon
+Maintainer: <pshannon@systemsbiology.org>
+Depends: R (>= 3.4.3), methods, BiocGenerics
+Suggests: RUnit
+Description: How to use ROxygen2 with a simple class hierarchy.
+License: GPL-3
+LazyLoad: yes
+RoxygenNote: 6.0.1
