@@ -23,3 +23,6 @@ derived.01 <- Derived(name="paul", count=42, height=65)
 getHeight(derived.01)
 
 }
+\seealso{
+\code{\link{getName}}, \code{\link{getCount}}
+}

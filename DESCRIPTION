@@ -1,7 +1,7 @@
 Package: roxygen2Demo
 Type: Package
 Title: Demonstrate the construction of a minimal package, with one function and a little bit of data
-Version: 0.99.6
+Version: 0.99.7
 Date: 2018-03-31
 Author: Paul Shannon
 Maintainer: <pshannon@systemsbiology.org>

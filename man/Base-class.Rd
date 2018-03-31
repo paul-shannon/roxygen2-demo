@@ -30,4 +30,6 @@ Constructor for Base
 
 \references{
 \url{https://en.wikipedia.org/wiki/Abstract_type}
+
+\url{http://adv-r.had.co.nz/S4.html}
 }

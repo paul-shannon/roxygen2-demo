@@ -44,6 +44,8 @@ Derived <- function(name, count, height)
 #'
 #' @return The height of the Base object
 #'
+#' @seealso  \code{\link{getName}}, \code{\link{getCount}}
+#'
 #' @examples
 #' # Create a Derived object
 #' derived.01 <- Derived(name="paul", count=42, height=65)

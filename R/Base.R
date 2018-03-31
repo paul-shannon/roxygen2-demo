@@ -20,6 +20,7 @@ setGeneric('getCount', signature='obj', function (obj) standardGeneric ('getCoun
 #' @rdname Base-class
 #'
 #' @references \url{https://en.wikipedia.org/wiki/Abstract_type}
+#' @references \url{http://adv-r.had.co.nz/S4.html}
 #'
 #' @param name A length-one character vector, for instance, 'paul', 'amy'
 #' @param count A length-one numeric vector
