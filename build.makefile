@@ -1,3 +1,5 @@
+all:  docs vig build install check
+
 docs:
 	R -e "devtools::document()"
 vig:

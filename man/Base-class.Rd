@@ -28,3 +28,6 @@ Constructor for Base
 \item{\code{count}}{integer a length-one numeric vector}
 }}
 
+\references{
+\url{https://en.wikipedia.org/wiki/Abstract_type}
+}
