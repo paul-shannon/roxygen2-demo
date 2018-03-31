@@ -10,7 +10,7 @@
 Base(name, count)
 }
 \arguments{
-\item{name}{A length-one character vector}
+\item{name}{A length-one character vector, for instance, 'paul', 'amy'}
 
 \item{count}{A length-one numeric vector}
 }
